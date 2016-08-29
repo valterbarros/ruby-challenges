@@ -1,4 +1,4 @@
-#Lista de produtos adicionados ao carrinho
+#Lista de produtos adicionados ao carrinho com gets and sets
 class SessionCarrinho
   def initialize
     @lista_produtos = Hash.new
@@ -41,7 +41,7 @@ class AdicionaProdutos
   #Metodo para inserir produtos no carrinho
   def insert(produto)
     lista = @carrinho.get_lista
-    if lista[produto.get_nome] == nil
+    if lista[produto.get_nome].nil?
     	lista[produto.get_nome] = 1
     else
     	lista[produto.get_nome] += 1
