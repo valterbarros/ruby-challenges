@@ -8,4 +8,4 @@ words.each { |word| frequencies[word] += 1  } #Percorre o array words e salva no
 frequencies = frequencies.sort_by {|a, b| b } #Ordena pelo número
 frequencies.reverse! #Ordem reversa para ficar do maior para o menor
 frequencies.each { |word, frequency| puts word + " " + frequency.to_s  } #Percorre e imprimi os valores separado
-
+puts frequencies
