@@ -2,7 +2,7 @@ require 'net/http'
 require 'uri'
 require 'json'
 
-uri = URI.parse("http://google.com")
+uri = URI.parse("http://localhost:3000/welcome")
 
 header = {'Content-Type': 'text/json'}
 user = {user: {

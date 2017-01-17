@@ -1,4 +1,3 @@
-require 'pp'
 objetos_agrupado = []
 objeto_horarios = {
 										segunda: "21:50", 
@@ -17,4 +16,4 @@ for index_do_array in 0..numero_de_horarios_unificados - 1
   objetos_agrupado << objeto_horarios.select{|dias,horario| horario == valores_de_horarios[index_do_array]}
 end
 
-pp objetos_agrupado
+puts objetos_agrupado
