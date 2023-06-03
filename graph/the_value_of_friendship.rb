@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/value-of-friendship/problem
+
 $group_management = []
 
 class CalculateValue
